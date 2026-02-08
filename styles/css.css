@@ -220,6 +220,63 @@ textarea {
 }
 
 @media screen and (max-width: 576px) {
+    .header {
+        background-image: none;
+    }
+
+    .banner {
+        flex-direction: column;
+        margin: 20px;
+        margin-top: 5px;
+    }
+
+    .banner-profile-pic {
+        width: calc(100% - 40px);
+    }
+
+    .banner-content {
+        width: calc(100% - 30px);
+    }
+
+    .banner-greetings {
+        font-size: 25px;
+        font-weight: 100px;
+    }
+
+    .banner-title {
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    .nav-bar {
+        margin: 15px;
+    }
+
+    .btn-mobile {
+        margin-bottom: 20px;
+    }
+
+    .nav-title {
+        font-weight: 800;
+        font-size: 25px;
+    }
+
+    nav ul li {
+        margin-right: 15px;
+
+    }
+
+
+    nav li a {
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .btn-primary {
+        font-size: 14px;
+        padding: 12px 15px;
+    }
+
     .about-items {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -253,7 +310,7 @@ textarea {
     }
 
     .button-submit {
-        margin-left: 150px;
+        margin-left: 100px;
     }
 }
 
