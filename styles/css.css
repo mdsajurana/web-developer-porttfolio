@@ -266,7 +266,6 @@ textarea {
 
     }
 
-
     nav li a {
         text-decoration: none;
         font-size: 14px;
@@ -310,11 +309,33 @@ textarea {
     }
 
     .button-submit {
-        margin-left: 100px;
+        margin-left: 140px;
     }
 }
 
 @media screen and (min-width: 576.1px) and (max-width: 992px) {
+    .header {
+        background-image: none;
+    }
+
+    .banner {
+        flex-direction: column;
+        margin: 20px;
+        margin-top: 5px;
+    }
+
+    .banner-profile-pic {
+        width: calc(100% - 40px);
+    }
+
+    .banner-content {
+        width: calc(100% - 30px);
+    }
+
+    .nav-bar {
+        margin: 15px;
+    }
+
     .about-items {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -344,6 +365,6 @@ textarea {
     }
 
     .button-submit {
-        margin-left: 200px;
+        margin-left: 300px;
     }
 }
